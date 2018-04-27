@@ -398,7 +398,7 @@ const meStyleFunc = function (feature) {
       }),
       stroke : new ol.style.Stroke({
         width : this.get('_radius') - 1,
-        color : 'rgba(239,108,0,1)'
+        color : 'rgba(64,255,64,1)'
       })
     }),
   })
@@ -407,7 +407,7 @@ const meStyleFunc = function (feature) {
   if (lineGeo)
   result.push(new ol.style.Style({
     geometry: this.get('_lineGeo'),
-    stroke: new ol.style.Stroke({ color: 'rgba(239,108,0,0.8)', width: 2.2 })
+    stroke: new ol.style.Stroke({ color: 'rgba(64,255,64,1)', width: 2.2 })
   }))
   return result
 }
