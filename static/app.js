@@ -81,6 +81,99 @@ vapp = new Vue({
       if (this.showItemAmmo) {
         flags |= 0b0000000000100000
       }
+      if (this.showBack) {
+        flags |= 0b00000000000000000000000000001000
+      }
+      if (this.showArmor2) {
+        flags |= 0b00000000000000000000000100000000
+      }
+      if (this.showHead2) {
+        flags |= 0b00000000000000000000000000000100
+      }
+      if (this.showArmor3) {
+        flags |= 0b00000000000000000000000010000000
+      }
+      if (this.showHead3) {
+        flags |= 0b00000000000000000000000000000010
+      }
+      if (this.showFirstAid) {
+        flags |= 0b00000000000000000000000000100000
+      }
+      if (this.showMedKit) {
+        flags |= 0b00000000000000000000000000010000
+      }
+      if (this.showDrink) {
+        flags |= 0b00000000000000000000000001000000
+      }
+      if (this.showGrenade) {
+        flags |= 0b00000000000100000000000000000000
+      }
+      if (this.showSmokeBomb) {
+        flags |= 0b00000000000010000000000000000000
+      }
+      if (this.showAmmo556) {
+        flags |= 0b00000000000000000000010000000000
+      }
+      if (this.showAmmo762) {
+        flags |= 0b00000000000000000000001000000000
+      }
+      if (this.showForeGrip) {
+        flags |= 0b10000000000000000000000000000000
+      }
+      if (this.showLowST) {
+        flags |= 0b00000000010000000000000000000000
+      }
+      if (this.showHighST) {
+        flags |= 0b00000000001000000000000000000000
+      }
+      if (this.showARCnFH) {
+        flags |= 0b00100000000000000000000000000000
+      }
+      if (this.showARSuppressor) {
+        flags |= 0b00010000000000000000000000000000
+      }
+      if (this.showARExtended) {
+        flags |= 0b01000000000000000000000000000000
+      }
+      if (this.showARStock) {
+        flags |= 0b00001000000000000000000000000000
+      }
+      if (this.showSRFlashHider) {
+        flags |= 0b00000010000000000000000000000000
+      }
+      if (this.showSRSuppressor) {
+        flags |= 0b00000001000000000000000000000000
+      }
+      if (this.showSRExtended) {
+        flags |= 0b00000100000000000000000000000000
+      }
+      if (this.showSRStock) {
+        flags |= 0b00000000100000000000000000000000
+      }
+      if (this.showM16A4) {
+        flags |= 0b00000000000001000000000000000000
+      }
+      if (this.showSCAR) {
+        flags |= 0b00000000000000010000000000000000
+      }
+      if (this.showAK47) {
+        flags |= 0b00000000000000001000000000000000
+      }
+      if (this.showHK416) {
+        flags |= 0b00000000000000100000000000000000
+      }
+      if (this.showPan) {
+        flags |= 0b00000000000000000000100000000000
+      }
+      if (this.showMini14) {
+        flags |= 0b00000000000000000001000000000000
+      }
+      if (this.showSKS) {
+        flags |= 0b00000000000000000010000000000000
+      }
+      if (this.showKar98k) {
+        flags |= 0b00000000000000000100000000000000
+      }
       return flags
     }
   },
