@@ -676,10 +676,6 @@ const renderMap = () => {
         label = playerObj.name
       } else {
         label = `<${playerObj.guid}>`
-      }
-      if (playerObj.kills) {
-        label += `(${playerObj.kills})`
-      }
     }
     if (playerObj.health != null) {
       label += `@${Math.floor(playerObj.health)}`
